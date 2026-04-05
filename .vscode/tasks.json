@@ -1,0 +1,41 @@
+﻿{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run FastAPI",
+      "type": "shell",
+      "command": "${workspaceFolder}\\run_api.bat",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Run Streamlit",
+      "type": "shell",
+      "command": "${workspaceFolder}\\run_webui.bat",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Run Demo Script",
+      "type": "shell",
+      "command": "${workspaceFolder}\\run_demo.bat",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Test Project",
+      "type": "shell",
+      "command": "python -m pytest",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    }
+  ]
+}

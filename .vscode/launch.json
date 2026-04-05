@@ -1,0 +1,50 @@
+﻿{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "FastAPI: Uvicorn",
+      "type": "python",
+      "request": "launch",
+      "module": "uvicorn",
+      "args": [
+        "app.main:app",
+        "--reload"
+      ],
+      "jinja": true,
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "name": "Streamlit: WebUI",
+      "type": "python",
+      "request": "launch",
+      "module": "streamlit",
+      "args": [
+        "run",
+        "webui/streamlit_app.py"
+      ],
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "name": "Python: Demo Script",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/scripts/run_demo.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ],
+  "compounds": [
+    {
+      "name": "Run API + WebUI",
+      "configurations": [
+        "FastAPI: Uvicorn",
+        "Streamlit: WebUI"
+      ]
+    }
+  ]
+}
