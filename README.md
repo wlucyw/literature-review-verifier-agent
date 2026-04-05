@@ -263,8 +263,16 @@ curl -X POST "http://127.0.0.1:8000/verify" ^
 默认模式是 `rule`，因此即使没有配置 LLM 或 LoRA adapter，项目也可以本地跑通。
 仓库还包含 [LICENSE](/d:/literature_review_verifier/LICENSE)、[CHANGELOG.md](/d:/literature_review_verifier/CHANGELOG.md) 和 Windows 启动脚本，方便直接展示与本地使用。
 
+## 截屏
 
+<p align="center">
+  <img src="docs/Literature%20Review%20Verifier_demo.png" alt="Literature Review Verifier Demo" width="900" />
+</p>
 
+<p align="center">
+  <em>Streamlit demo for bilingual literature review verification, citation checking, and AI writing risk analysis.</em><br/>
+  <em>用于展示中英文文献综述核验、引用审核与 AI 写作风险分析的 Streamlit Demo 界面。</em>
+</p>
 
 
  ---
