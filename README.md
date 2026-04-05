@@ -1,4 +1,4 @@
-<img width="2382" height="13464" alt="Literature Review Verifier_1-4_00" src="https://github.com/user-attachments/assets/8e20ece9-e9f1-472a-ac98-a85496787a1c" /># Literature Review Verifier Agent
+# Literature Review Verifier Agent
 # 文献综述审核智能体：你的参考文献存在吗？ 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-API-009688?logo=fastapi&logoColor=white)
@@ -264,7 +264,8 @@ curl -X POST "http://127.0.0.1:8000/verify" ^
 仓库还包含 [LICENSE](/d:/literature_review_verifier/LICENSE)、[CHANGELOG.md](/d:/literature_review_verifier/CHANGELOG.md) 和 Windows 启动脚本，方便直接展示与本地使用。
 
 
-<img width="2382" height="13464" alt="Literature Review Verifier_1-4_00" src="https://github.com/user-attachments/assets/84ae2957-5a4e-4778-8597-5b4e0c152b10" />
+
+
 
  ---
  # Literature Review Verifier Agent
