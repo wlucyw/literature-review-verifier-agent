@@ -1,5 +1,5 @@
 # Literature Review Verifier Agent
-# 文献综述审核智能体：你的参考文献存在吗？ 
+# 文献综述审核智能体：你的参考文献真实存在吗？ 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-API-009688?logo=fastapi&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-Demo-FF4B4B?logo=streamlit&logoColor=white)
