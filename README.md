@@ -6,7 +6,7 @@
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Status](https://img.shields.io/badge/Status-Prototype-orange) 中文说明
 
-Literature Review Verifier Agent 是一个面向本地运行与 GitHub 展示的工程化原型，用于辅助核验文献综述中是否存在可疑引用、元数据错配、综述结论支撑不足，以及较高的 AI 写作痕迹风险。项目基于 FastAPI、Streamlit、规则系统、公开学术元数据检索链路，以及可扩展的 LoRA 微调接口构建，默认目标模型为 `Qwen/Qwen3-4B-Instruct-2507`。
+Literature Review Verifier Agent 是一个面向本地运行与 GitHub 展示的工程化原型，用于辅助核验文献综述中是否存在可疑引用、元数据错配、综述结论支撑不足，以及较高的 AI 写作痕迹风险。项目基于 FastAPI、Streamlit、规则系统、公开学术元数据检索链路，以及可扩展的 LoRA 微调接口构建，默认目标模型为 `Qwen/Qwen3-4B-Instruct-2507`。选择该模型的原因是它相较更大参数模型更适合本地部署与 LoRA 微调，推理成本更低、资源占用更友好，同时仍具备较好的指令跟随能力和结构化 JSON 输出稳定性，适合作为文献核验类 Agent 的默认基座模型。
 
 ## 项目速览
 - 输入：文献综述文本 + 参考文献列表
